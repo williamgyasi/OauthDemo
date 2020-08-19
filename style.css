@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:focus{
+    outline: none;
+}
+
+.container{
+    width: 500px;
+  height:300px;
+  margin: 10% auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 255, 0.74);
+  overflow: hidden;
+  position: relative; 
+}
+.container h3{
+    margin-top: 20px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.forms-placeholder{
+    margin-top: 30px;
+}
+input[type="email"],input[type="password"]{
+    display: block;
+    margin-bottom: 10px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+button{
+    color: black;
+    padding: 12px 22px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
+
