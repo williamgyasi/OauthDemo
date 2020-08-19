@@ -2,27 +2,28 @@
 <html>
   <head>
     <link href="/style.css" type="text/css" rel="stylesheet">
-    <meta name="google-signin-client_id" content="503285710337-8rfoitdjj7060usrk2sol8ikuoh38daa.apps.googleusercontent.com">
+    <meta name="google-signin-client_id" content="41668418028-lsta61eck28balrg2c73l2sm6s0o5v3b.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
     <title>OATH 2.0</title>
 
   </head>
 
   <body>
     <div class="container">
-      <h3>OAUTH 2.0 LOGIN DEMO</h3>
-      <div class="forms-placeholder">
-        <input type="email" name="femail" placeholder="Email" class="email">
-      <input type="password" name="fpassword" placeholder="Password" class="password" required>
-      <button class="login">Login</button>
+      <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+      <div class="results">
+        <h3>WELCOME  <span class="google-name"></span></h3>
+        <h3>EMAIL  <span class="google-email"></span></h3>
+        <p>MY MOBILE MONEY NUMBER IS 0540945278</p>
+        <h1 class=""></h3>
+          <button class="logout" onclick="signOut()">Signout</button>
       </div>
-      <div class="g-signin2" data-onsuccess="onSignIn"></div>
-      
       
     </div>
     
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    
     <script src="/style.js">
     </script>
 
   </body>
-</html><div class="g-signin2" data-onsuccess="onSignIn"></div>
+</html>

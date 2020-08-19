@@ -8,43 +8,34 @@
 }
 
 .container{
-    width: 500px;
-  height:300px;
-  margin: 10% auto;
   display: flex;
   align-items: center;
-  flex-direction: column;
-  border-radius: 15px;
-  background-color: rgba(0, 0, 255, 0.74);
+  justify-content: center;
   overflow: hidden;
+  flex-direction: column;
   position: relative; 
-}
-.container h3{
-    margin-top: 20px;
-    color: white;
-    font-family: sans-serif;
-    font-size: 30px;
-}
-.forms-placeholder{
-    margin-top: 30px;
-}
-input[type="email"],input[type="password"]{
-    display: block;
-    margin-bottom: 10px;
-    width: 400px;
-    padding: 10px;
-    border-radius: 10px;
-    border: none;
-    font-size: 20px;
+  margin: 10% 0;
 }
 
 button{
-    color: black;
-    padding: 12px 22px;
+    border:none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
     border-radius: 10px;
-    border: none;
-    margin-left: 40%;
-    margin-top: 20px;
+    color: black;
+    background-color: blue;
+    font-size: 25px;
+    text-transform: capitalize;
+    cursor: pointer;
 }
 
+.results{
+    display: none;
+    font-family: sans-serif;
+    color: black;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    
+}
 
